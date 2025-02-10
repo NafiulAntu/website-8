@@ -1,0 +1,42 @@
+body {
+  background-color: #003c43;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: flex-start; /* Align items from the left */
+}
+
+.antu-img {
+  width: 180px;
+  height: 180px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 20%;
+  border: solid 5px white;
+}
+
+.text-1 {
+  color: white;
+  width: 70%; /* Limits paragraph width */
+  border: 5px;
+  padding: 5px;
+  margin-left: 110px; /* Creates space between the image and the text */
+  margin-top: 70px; /* Aligns it with the image */
+}
+
+.midle-container {
+  background-color: #135d66;
+
+  width: 50px;
+  border: black;
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: flex-start; /* Align items from the left */
+}
